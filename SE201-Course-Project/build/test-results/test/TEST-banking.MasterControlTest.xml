@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.MasterControlTest" tests="39" skipped="0" failures="0" errors="0" timestamp="2025-06-07T05:10:57" hostname="MAGGIE" time="0.077">
+  <properties/>
+  <testcase name="pass_time_invalid_non_numeric()" classname="banking.MasterControlTest" time="0.022"/>
+  <testcase name="pass_time_multiple_months_accumulates_interest()" classname="banking.MasterControlTest" time="0.002"/>
+  <testcase name="single_savings_account_with_deposit_shows_account_state_and_transaction()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="pass_time_closes_zero_balance_account()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="pass_time_deducts_minimum_balance_fee()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="closed_account_not_shown_in_output()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="pass_time_affects_multiple_accounts()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="pass_time_invalid_zero_months()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="invalid_to_create_accounts_with_same_ID()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="sample_make_sure_this_passes_unchanged_or_you_will_fail()" classname="banking.MasterControlTest" time="0.002"/>
+  <testcase name="typo_in_create_command_is_invalid()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="multiple_accounts_shown_in_creation_order()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="pass_time_cd_calculates_interest_four_times_per_month()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="withdraw_cd_before_12_months_is_invalid()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="pass_time_closes_account_after_fee_makes_balance_negative()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="whole_number_apr_shows_decimal_places()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="withdraw_negative_amount_is_invalid()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="pass_time_processes_fee_before_interest()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="invalid_commands_appear_at_end()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="pass_time_invalid_61_months()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="pass_time_not_included_in_transaction_history()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="withdraw_savings_above_limit_is_invalid()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="pass_time_no_fee_for_balance_exactly_100()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="transfer_shows_in_both_account_histories()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="pass_time_valid_boundary_1_month()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="only_invalid_commands_produces_only_invalid_output()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="account_with_multiple_transactions_shows_all_in_order()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="empty_input_produces_empty_output()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="pass_time_truncation_floors_balance_correctly()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="pass_time_valid_boundary_60_months()" classname="banking.MasterControlTest" time="0.002"/>
+  <testcase name="account_with_decimal_balance_truncates_correctly()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="pass_time_invalid_negative_months()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="apr_truncation_floors_correctly()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="pass_time_fee_creates_zero_balance_then_closes_account()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="typo_in_deposit_command_is_invalid()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="balance_truncation_floors_correctly()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="two_typo_commands_both_invalid()" classname="banking.MasterControlTest" time="0.0"/>
+  <testcase name="cd_account_shows_correct_format()" classname="banking.MasterControlTest" time="0.001"/>
+  <testcase name="withdraw_savings_second_withdrawal_same_month_is_invalid()" classname="banking.MasterControlTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

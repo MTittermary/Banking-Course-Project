@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.CommandProcessorTest" tests="31" skipped="0" failures="0" errors="0" timestamp="2025-06-07T05:10:57" hostname="MAGGIE" time="0.084">
+  <properties/>
+  <testcase name="pass_time_does_not_deduct_fee_for_accounts_100_or_above()" classname="banking.CommandProcessorTest" time="0.019"/>
+  <testcase name="valid_savings_transfer_increments_withdrawal_counter()" classname="banking.CommandProcessorTest" time="0.019"/>
+  <testcase name="withdraw_zero_amount_does_nothing()" classname="banking.CommandProcessorTest" time="0.007"/>
+  <testcase name="pass_time_processes_multiple_accounts()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="deposit_command_depositsMoneyIntoAccount()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="pass_time_removes_account_that_goes_to_zero_after_fee()" classname="banking.CommandProcessorTest" time="0.003"/>
+  <testcase name="withdraw_checking_over_balance_results_in_zero_balance()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="pass_time_accrues_apr_monthly()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="pass_time_closes_accounts_with_zero_balance()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="valid_transfer_from_checking_to_savings()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="withdraw_cd_partial_after_12_months_does_not_change_balance()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="pass_time_increments_months_since_creation()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="createSavingsAccount_command_createsAccount()" classname="banking.CommandProcessorTest" time="0.003"/>
+  <testcase name="pass_time_deducts_minimum_balance_fee_for_accounts_below_100()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="pass_time_resets_savings_withdrawal_counter()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="withdraw_checking_just_over_balance_results_in_zero_balance()" classname="banking.CommandProcessorTest" time="0.002"/>
+  <testcase name="withdraw_cd_over_balance_after_12_months_sets_balance_zero()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="pass_time_handles_edge_case_balance_exactly_100()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="withdraw_cd_full_after_12_months_sets_balance_zero()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="withdraw_checking_just_under_balance_results_in_zero_balance()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="valid_transfer_from_checking_to_checking()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="valid_transfer_only_available_amount_when_insufficient_funds()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="valid_transfer_from_savings_to_checking()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="pass_time_processes_cd_account_correctly()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="createCdAccount_command_createsAccountWithInitialBalance()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="pass_time_processes_multiple_months()" classname="banking.CommandProcessorTest" time="0.0"/>
+  <testcase name="withdraw_checking_within_balance_and_limit()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="createCheckingAccount_command_createsAccount()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="transfer_from_savings_to_savings_successfully()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="deposit_command_addsMoneyToExistingBalance()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <testcase name="withdraw_savings_within_limit_first_withdrawal()" classname="banking.CommandProcessorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

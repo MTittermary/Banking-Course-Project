@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.BankTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-06-07T05:10:57" hostname="MAGGIE" time="0.017">
+  <properties/>
+  <testcase name="when_depositing_twice_through_banks_correct_account_gets_money()" classname="banking.BankTest" time="0.004"/>
+  <testcase name="when_withdrawing_through_bank_correct_account_loses_money()" classname="banking.BankTest" time="0.002"/>
+  <testcase name="when_depositing_through_bank_correct_account_gets_money()" classname="banking.BankTest" time="0.001"/>
+  <testcase name="when_bank_is_created_it_has_no_accounts()" classname="banking.BankTest" time="0.001"/>
+  <testcase name="when_withdrawing_twice_through_bank_correct_account_loses_money()" classname="banking.BankTest" time="0.0"/>
+  <testcase name="when_retrieving_one_account_from_the_bank_the_correct_account_is_retrieved()" classname="banking.BankTest" time="0.001"/>
+  <testcase name="when_an_account_is_added_the_bank_has_one_account()" classname="banking.BankTest" time="0.002"/>
+  <testcase name="when_two_accounts_are_added_to_the_bank_it_has_two_accounts()" classname="banking.BankTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

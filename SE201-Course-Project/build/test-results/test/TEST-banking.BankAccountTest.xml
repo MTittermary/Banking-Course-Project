@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.BankAccountTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-06-07T05:10:56" hostname="MAGGIE" time="0.043">
+  <properties/>
+  <testcase name="if_withdrawal_is_greater_than_balance_then_balance_is_$0()" classname="banking.BankAccountTest" time="0.034"/>
+  <testcase name="account_created_with_specified_APR()" classname="banking.BankAccountTest" time="0.0"/>
+  <testcase name="withdrawing_twice_from_account_works_as_expected()" classname="banking.BankAccountTest" time="0.001"/>
+  <testcase name="account_balance_increases_when_deposit_is_made()" classname="banking.BankAccountTest" time="0.001"/>
+  <testcase name="account_balance_decreases_when_withdrawal_is_made()" classname="banking.BankAccountTest" time="0.0"/>
+  <testcase name="account_created_with_specified_ID()" classname="banking.BankAccountTest" time="0.001"/>
+  <testcase name="depositing_twice_into_an_account_works_as_expected()" classname="banking.BankAccountTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
